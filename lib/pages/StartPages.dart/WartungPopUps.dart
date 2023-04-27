@@ -78,20 +78,20 @@ Future<void> showMyDialog(BuildContext context) async {
                         final apiKey =
                             '';
                         final url = Uri.parse(
-                            'https://api.sendinblue.com/v3/smtp/email');
+                            '');
                         final headers = {
                           'Content-Type': 'application/json',
                           'api-key': apiKey,
                         };
                         final body = jsonEncode({
                           'sender': {
-                            'email': 'jaehnkebot@gmail.com',
+                            'email': '',
                             'name': 'Wartungstermin-Bot'
                           },
                           'to': [
                             {
-                              'email': 'fabian.jaehnke@outlook.de',
-                              'name': 'Fabian Jähnke'
+                              'email': '
+                              'name': ''
                             }
                           ],
                           'subject': 'Wartungstermin',
