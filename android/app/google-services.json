@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889484828106",
+    "project_id": "jaehnkeapp-ccc7d",
+    "storage_bucket": "jaehnkeapp-ccc7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889484828106:android:69f051b32179d5eef30333",
+        "android_client_info": {
+          "package_name": "com.example.appp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889484828106-pv974af5d1oki9st7s92k4j3p7ov5d0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHjnj1qiVNIfo5kmh9KP1Q2sji0DteEyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889484828106-pv974af5d1oki9st7s92k4j3p7ov5d0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
