@@ -59,7 +59,7 @@ class MyCardWidget extends StatelessWidget {
                       'lib/images/pilz.jpg',
                       height: 36.0,
                     ),
-                    title: const Text('Anastasia Thies',
+                    title: const Text('',
                         style: TextStyle(fontSize: 30.0)),
                     subtitle: const Text('Leitung Kundenservice',
                         style: TextStyle(fontSize: 18.0)),
@@ -74,7 +74,7 @@ class MyCardWidget extends StatelessWidget {
                             child: UniversalButtonTwo(
                               buttonText: 'Anruf',
                               onPressed: () async {
-                                launch('tel:05371 74804');
+                                launch('tel:');
                               },
                               textColor: Colors.white,
                             ),
@@ -86,7 +86,7 @@ class MyCardWidget extends StatelessWidget {
                             child: UniversalButtonTwo(
                               buttonText: 'Nachricht',
                               onPressed: () {
-                                launch('mailto:kontakt@jaehnke-gifhorn.de');
+                                launch('mailto:');
                               },
                               textColor: Colors.white,
                             ),
@@ -267,7 +267,7 @@ class MyCardWidget extends StatelessWidget {
                                   TextButton(
                                     onPressed: () {
                                       FlutterPhoneDirectCaller.callNumber(
-                                          '+0537174804');
+                                          '+');
                                     },
                                     child: const Text(
                                       'Fortfahren',
