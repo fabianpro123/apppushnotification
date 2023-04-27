@@ -21,7 +21,7 @@ class _ProfilState extends State<Profil> {
     FirebaseAuth.instance.signOut();
   }
 
-  final Uri url = Uri.parse("https://g.page/r/CQbchXShwxuXEBM/review");
+  final Uri url = Uri.parse("");
 
   @override
   Widget build(BuildContext context) {
