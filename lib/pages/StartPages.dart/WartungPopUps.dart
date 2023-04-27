@@ -76,7 +76,7 @@ Future<void> showMyDialog(BuildContext context) async {
                     TextButton(
                       onPressed: () async {
                         final apiKey =
-                            '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';
+                            '';
                         final url = Uri.parse(
                             'https://api.sendinblue.com/v3/smtp/email');
                         final headers = {
